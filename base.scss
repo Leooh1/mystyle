@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
+
+$c900: #212529;
+$c800: #343a40;
+$c700: #495057;
+$c600: #6c757d;
+$c500: #adb5bd;
+$c400: #ced4da;
+$c300: #dee2e6;
+$c200: #e9ecef;
+$c100: #f8f9fa;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  color:$c100;
+}
+
+.font {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+body {
+  @extend .font;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
